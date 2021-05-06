@@ -5,7 +5,7 @@
 
 ## create new Spring boot project in VSCode
 
-1. >spring initializer: maven
+1. ＞spring initializer: maven
 2. spring boot ver: 2.3.10
 3. language: java
 4. group id: `com.example`
