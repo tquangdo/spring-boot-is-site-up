@@ -4,7 +4,6 @@
 ![demo](screenshot/demo.png)
 
 ## create new Spring boot project in VSCode
-
 1. ＞spring initializer: maven
 2. spring boot ver: 2.3.10
 3. language: java
@@ -13,8 +12,10 @@
 6. packaging type: jar
 7. java ver: 8
 8. dependencies: `spring boot devtools` & `spring web`
->(note) `JAVA PROJECTS > Maven Dependencies[+] > apache commons core > commons-jci-core`
-=> add `pom.xml: <artifactId>commons-jci-core</artifactId>`
+
+## maven dependencies
+JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `commons-jci-core`
+=> auto add `pom.xml: <artifactId>commons-jci-core</artifactId>`
 
 ## run
 1. click `run` in VSCode
