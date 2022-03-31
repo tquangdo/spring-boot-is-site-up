@@ -20,11 +20,12 @@ JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `com
 ## run
 1. ### by vscode
     - click `spring-boot:run` in VSCode
-    > NOT right click project name (`demo`) > deploy: will ERR!!!
+    > NOT right click project name (`demo`) > [deploy]: will ERR!!!
     ---
     ![run_mvn](screenshot/run_mvn.png)
 1. ### by CMD
     - `demo$ ./mvnw spring-boot:run`
+    > if ERR after change code: right click > [clean] + [test-compile]
 - access browser: `localhost:8080` => will see "Whitelabel Error Page"
 - `http://localhost:8080/check?arg_url=https://www.google.com` => Site is up!
 - `http://localhost:8080/check?arg_url=https://www.gggg.com` => Site is down!
