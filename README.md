@@ -18,8 +18,13 @@ JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `com
 => auto add `pom.xml: <artifactId>commons-jci-core</artifactId>`
 
 ## run
-1. click `run` in VSCode
-2. access browser: `localhost:8080`
-3. `http://localhost:8080/check?arg_url=https://www.google.com` => Site is up!
-4. `http://localhost:8080/check?arg_url=https://www.gggg.com` => Site is down!
-
+1. ### by vscode
+    - click `spring-boot:run` in VSCode
+    > NOT right click project name (`demo`) > deploy: will ERR!!!
+    ---
+    ![run_mvn](screenshot/run_mvn.png)
+1. ### by CMD
+    - `demo$ ./mvnw spring-boot:run`
+- access browser: `localhost:8080`
+- `http://localhost:8080/check?arg_url=https://www.google.com` => Site is up!
+- `http://localhost:8080/check?arg_url=https://www.gggg.com` => Site is down!
