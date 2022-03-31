@@ -25,6 +25,6 @@ JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `com
     ![run_mvn](screenshot/run_mvn.png)
 1. ### by CMD
     - `demo$ ./mvnw spring-boot:run`
-- access browser: `localhost:8080`
+- access browser: `localhost:8080` => will see "Whitelabel Error Page"
 - `http://localhost:8080/check?arg_url=https://www.google.com` => Site is up!
 - `http://localhost:8080/check?arg_url=https://www.gggg.com` => Site is down!
