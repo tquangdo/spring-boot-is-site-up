@@ -1,6 +1,6 @@
-# spring-boot-is-site-up 🐳
+# spring-boot-vscode-is-site-up 🐳
 
-![License](https://img.shields.io/github/license/tquangdo/spring-boot-is-site-up?color=f05340)
+![License](https://img.shields.io/github/license/tquangdo/spring-boot-vscode-is-site-up?color=f05340)
 ![demo](screenshot/demo.png)
 
 ## create new Spring boot project in VSCode
