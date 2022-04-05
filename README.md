@@ -19,7 +19,7 @@ JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `com
 
 ## run
 1. ### by vscode
-    - click `spring-boot:run` in VSCode
+    - click `Plugins > spring-boot > spring-boot:run` in VSCode
     > NOT right click project name (`demo`) > [deploy]: will ERR!!!
     ---
     ![run_mvn](screenshot/run_mvn.png)
