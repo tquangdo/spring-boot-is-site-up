@@ -4,18 +4,22 @@
 ![demo](screenshot/demo.png)
 
 ## create new Spring boot project in VSCode
-1. ＞spring initializer: maven
-2. spring boot ver: 2.3.10
-3. language: java
-4. group id: `com.example`
-5. artifact id: `demo`
-6. packaging type: jar
-7. java ver: 8
-8. dependencies: `spring boot devtools` & `spring web`
+1. ### create new
+    1. ＞spring initializer: maven
+    2. spring boot ver: 2.3.10
+    3. language: java
+    4. group id: `com.example`
+    5. artifact id: `demo`
+    6. packaging type: jar
+    7. java ver: 8
+    8. dependencies: `spring boot devtools` & `spring web`
+1. ### add src code from repo
+    - create `src/main/java/com/example/demo/controllers/UrlCheckController.java` (copy paste from repo)
 
 ## maven dependencies
 JAVA PROJECTS > Maven Dependencies[+] > type `apache commons core` > choose `commons-jci-core`
 => auto add `pom.xml: <artifactId>commons-jci-core</artifactId>`
+![depend](screenshot/depend.png)
 
 ## run
 1. ### by vscode
